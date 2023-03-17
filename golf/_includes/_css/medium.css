@@ -3,3 +3,79 @@ CSS para pantallas medianas (Tablets)
 Ultima modificación por:
 Fecha:
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
+@media only screen and (max-width: 900px){
+    input[type="text"], input[type="number"], input[type="email"], input[type="tel"] {
+        width: 45%;
+    }
+
+    .align-form {
+        width: 95%;
+    }
+
+    .secPD {
+        width: 47%;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 6%;
+    }
+
+    .cont-label label {
+        text-align: center;
+    }
+
+    .is-visible {
+        width: 80% !important;
+    }
+
+    label.lab-title {
+        text-align: center;
+    }
+
+    .box-pay {
+        width: 48%;
+    }
+    
+}
+
+@media only screen and (max-width: 750px){
+    .inputs {
+        text-align: center;
+    }
+
+    input[type="text"], input[type="number"], input[type="email"], input[type="tel"] {
+        width: 80%;
+    }
+
+    is-visible {
+        height: 360px;
+    }
+
+    .is-visible {
+        text-align: center;
+        height: 330px;
+    }
+
+    .part3 {
+        width: 100%;
+    }
+
+    .is-visible {
+        width: 100% !important;
+    }
+
+    .desp-sec1.is-visible, .desp-sec2.is-visible {
+        height: 31vh;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 2% 8%;
+    }
+
+    .fondo {
+        height: 100%;
+    }
+
+}

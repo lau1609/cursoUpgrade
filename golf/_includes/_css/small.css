@@ -4,3 +4,15 @@ Ultima modificación por:
 Fecha:
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ */
 
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"] {
+    width: 90%;
+}
+
+.part4 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.secPD {
+    width: 90%;
+}

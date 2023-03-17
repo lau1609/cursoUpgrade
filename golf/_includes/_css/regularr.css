@@ -1,0 +1,62 @@
+
+h2 {
+    font-size: 1.65rem;
+}
+
+@media only screen and (max-width: 1400px){
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .lab-title {
+        font-size: 1.1rem !important;
+    }
+
+    .cont-form h1 {
+        font-size: 3rem;
+    }
+
+    .desp-sec1.is-visible, .desp-sec2.is-visible {
+        height: 26vh;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .lab-title {
+        font-size: 1rem !important;
+    }
+
+    h2 {
+        font-size: 1.35rem;
+    }
+
+    .blur {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .blur {
+        height: 650px;
+    }
+
+    .cont-form:not(.align-form) {
+        height: 650px;
+    }
+
+    .fondo {
+        height: 84%;
+    }
+
+    .boxR.is-visible {
+        width: 42%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pop-hotel.is-visible {
+        width: 90%;
+    }
+}
